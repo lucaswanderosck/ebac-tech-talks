@@ -1,17 +1,21 @@
 @use "hero";
+@use "variables";
+@use "event";
+@use "components/infos_bar";
+@use "components/buttons";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
+  color: variables.$mainColor;
   list-style: none;
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
-  color: #fff;
 }
 
-body {
-  background-image: linear-gradient(45deg, #fff 0%, #85fefe 100%);
+html {
+  scroll-behavior: smooth;
 }
 
 .container {

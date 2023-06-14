@@ -4,17 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EBAC | Tech Talks</title>
+
+    <!-- css -->
     <link rel="stylesheet" href="./styles/main.scss" />
+
+    <!-- sos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="hero">
       <div class="container">
         <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC" />
         <p class="hero__text">
-          O maior evento de tecnologia do Brasil começa em 10d 12h 20min 30s
+          O maior evento de tecnologia do Brasil começa em
+          <br />
+          <span id="contador"></span>
         </p>
+        <div class="infos-bar">
+          <ul class="infos-bar__infos">
+            <li class="infos-bar__infos__item">
+              <b>Localização</b>
+              Allianz Parque - Barra Funda - SP
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Preço</b>
+              A partir de R$ 120,00
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Quando?</b>
+              18/06/2023 às 13:00
+            </li>
+          </ul>
+          <a class="button button--primary" href="#">Garanta sua vaga</a>
+        </div>
       </div>
     </header>
+    <section class="event event--frontend">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">Front-End</h2>
+          <p class="event__details__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            ad aut? Labore soluta nulla asperiores ipsam illo fuga, inventore
+            maxime excepturi architecto voluptatum necessitatibus rerum. Itaque
+            quisquam ut vero placeat! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Voluptas, ad aut? Labore soluta nulla asperiores
+            ipsam illo fuga, inventore maxime excepturi architecto voluptatum
+            necessitatibus rerum. Itaque quisquam ut vero placeat!
+          </p>
+        </div>
+        <img class="event__image" src="./images/frontend.png" alt="frontend" />
+      </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Ui Ux</h2>
+          <p class="event__details__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            ad aut? Labore soluta nulla asperiores ipsam illo fuga, inventore
+            maxime excepturi architecto voluptatum necessitatibus rerum. Itaque
+            quisquam ut vero placeat! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Voluptas, ad aut? Labore soluta nulla asperiores
+            ipsam illo fuga, inventore maxime excepturi architecto voluptatum
+            necessitatibus rerum. Itaque quisquam ut vero placeat!
+          </p>
+        </div>
+        <img class="event__image" src="./images/ui-ux.png" alt="ui-ux" />
+      </div>
+    </section>
+    <section class="event event--data-science">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">Data Science</h2>
+          <p class="event__details__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            ad aut? Labore soluta nulla asperiores ipsam illo fuga, inventore
+            maxime excepturi architecto voluptatum necessitatibus rerum. Itaque
+            quisquam ut vero placeat! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Voluptas, ad aut? Labore soluta nulla asperiores
+            ipsam illo fuga, inventore maxime excepturi architecto voluptatum
+            necessitatibus rerum. Itaque quisquam ut vero placeat!
+          </p>
+        </div>
+        <img class="event__image" src="./images/data.png" alt="datascience" />
+      </div>
+    </section>
+    <section class="event event--backend event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Back-End</h2>
+          <p class="event__details__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            ad aut? Labore soluta nulla asperiores ipsam illo fuga, inventore
+            maxime excepturi architecto voluptatum necessitatibus rerum. Itaque
+            quisquam ut vero placeat! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Voluptas, ad aut? Labore soluta nulla asperiores
+            ipsam illo fuga, inventore maxime excepturi architecto voluptatum
+            necessitatibus rerum. Itaque quisquam ut vero placeat!
+          </p>
+        </div>
+        <img class="event__image" src="./images/backend.png" alt="backend" />
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
   </body>
 </html>
